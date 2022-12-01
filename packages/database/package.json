@@ -1,0 +1,20 @@
+{
+  "name": "@packages/database",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "db:migrate:deploy": "prisma migrate deploy",
+    "db:migrate:dev": "prisma migrate dev",
+    "db:push": "prisma db push",
+    "format": "prisma format",
+    "generate": "prisma generate"
+  },
+  "dependencies": {
+    "@pothos/plugin-prisma": "^3.39.0",
+    "@prisma/client": "^4.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "prisma": "^4.8.0"
+  }
+}

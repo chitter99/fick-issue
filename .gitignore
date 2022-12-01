@@ -1,0 +1,4 @@
+node_modules/
+.next/
+.pnpm-debug.log*
+next-env.d.ts

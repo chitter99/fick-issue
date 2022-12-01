@@ -1,0 +1,19 @@
+{
+  "setupTasks": [
+    {
+      "name": "Install",
+      "command": "pnpm install"
+    },
+    {
+      "name": "Generate",
+      "command": "pnpm --filter @packages/database generate"
+    }
+  ],
+  "tasks": {
+    "dev": {
+      "name": "dev",
+      "command": "pnpm --filter @apps/app dev",
+      "runAtStart": true
+    }
+  }
+}
