@@ -1,5 +1,6 @@
 import SchemaBuilder from "@pothos/core";
-import { db, PrismaPlugin } from "@packages/database";
+import PrismaPlugin from "@pothos/plugin-prisma";
+import { db } from "@packages/database";
 import type { PrismaTypes } from "@packages/database";
 
 export const builder = new SchemaBuilder<{ PrismaTypes: PrismaTypes }>({
