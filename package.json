@@ -3,12 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "engines": {
-    "pnpm": "8.6.7",
     "node": "18.16.1"
   },
-  "scripts": {},
-  "dependencies": {
-    "node": "18.16.1",
-    "pnpm": "8.6.7"
-  }
+  "scripts": {}
 }
