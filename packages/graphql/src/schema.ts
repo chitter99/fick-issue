@@ -1,5 +1,4 @@
 import { db } from "@packages/database";
-import { GraphQLSchema } from "graphql";
 import { builder } from "./builder";
 
 builder.prismaObject("User", {
@@ -20,4 +19,4 @@ builder.queryType({
   }),
 });
 
-export const schema: GraphQLSchema = builder.toSchema();
+export const schema = builder.toSchema();
